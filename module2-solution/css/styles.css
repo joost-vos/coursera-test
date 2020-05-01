@@ -1,0 +1,97 @@
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+    background-color: white;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Helvetica;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #FFFFFF;
+    padding: 15px 5px 0px 5px;
+    font-family: Helvetica;
+    font-size: 16px;
+    position: relative;
+}
+
+/* Simple Responsive Framework. */
+.section { 
+    background-color: #878787;
+    border: 2px solid black;
+    margin-top: 20px; 
+    margin-right: 20px; 
+    padding: 3px;
+    text-align: justify;
+    position: relative;
+    height: auto;
+ }
+
+span {
+    font-size: 25px;
+    width: 150px;
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+    float: right; 
+    top :0; 
+    right: 0; 
+    margin: 0;
+    position: absolute;
+}
+#section_title1 {
+    background-color: #CA8486;
+    color: black;
+}
+#section_title2 {
+    background-color: #B23034;
+    color: white;
+}
+#section_title3 {
+    background-color: #DEC886;
+    color: black;
+}
+}
+
+.row {
+    width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+    width: 33.33%;
+    float: left;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+    width: 50%;
+    float: left;
+    }
+    
+    .col-md-12{
+        width:100%;
+        float:left;
+    }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+    .col-sm-12 {
+    width: 100%;
+    float: left;
+    }
+}
